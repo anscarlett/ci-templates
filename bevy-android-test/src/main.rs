@@ -1,5 +1,4 @@
 use bevy::prelude::*;
-use bevy::render::mesh::shape;
 
 fn main() {
     App::new()
@@ -33,7 +32,7 @@ fn setup(
 
     // Red cube
     commands.spawn(MaterialMeshBundle {
-        mesh: meshes.add(Mesh::from(shape::Cube { size: 2.0 })),
+        mesh: meshes.add(Cuboid::new(2.0, 2.0, 2.0)),
         material: materials.add(StandardMaterial {
             base_color: Color::srgb(1.0, 0.0, 0.0),
             ..Default::default()
@@ -44,7 +43,7 @@ fn setup(
 
     // Green sphere
     commands.spawn(MaterialMeshBundle {
-        mesh: meshes.add(Mesh::from(shape::Icosphere { radius: 1.0, subdivisions: 4 })),
+        mesh: meshes.add(Sphere::new(1.0)),
         material: materials.add(StandardMaterial {
             base_color: Color::srgb(0.0, 1.0, 0.0),
             ..Default::default()
@@ -55,12 +54,7 @@ fn setup(
 
     // Blue torus
     commands.spawn(MaterialMeshBundle {
-        mesh: meshes.add(Mesh::from(shape::Torus {
-            radius: 1.0,
-            ring_radius: 0.3,
-            subdivisions_segments: 16,
-            subdivisions_sides: 32,
-        })),
+        mesh: meshes.add(Torus::new(0.3, 1.0)),
         material: materials.add(StandardMaterial {
             base_color: Color::srgb(0.0, 0.0, 1.0),
             ..Default::default()
@@ -71,11 +65,12 @@ fn setup(
 
     // Ground plane
     commands.spawn(MaterialMeshBundle {
-        mesh: meshes.add(Mesh::from(shape::Plane { size: 20.0 })),
+        mesh: meshes.add(Rectangle::new(20.0, 20.0)),
         material: materials.add(StandardMaterial {
             base_color: Color::srgb(0.3, 0.3, 0.3),
             ..Default::default()
         }),
+        transform: Transform::from_rotation(Quat::from_rotation_x(-std::f32::consts::FRAC_PI_2)),
         ..Default::default()
     });
 }
