@@ -1,12 +1,14 @@
 # Rust build artifacts
-/target/
-/Cargo.lock
+target/
+**/target/
+Cargo.lock
+**/Cargo.lock
 
 # Android build artifacts
-/app-build/
+app-build/
 *.apk
 *.so
-/android/
+android/
 
 # IDE files
 .vscode/
@@ -19,4 +21,4 @@
 Thumbs.db
 
 # Temporary files
-/tmp/
+tmp/
