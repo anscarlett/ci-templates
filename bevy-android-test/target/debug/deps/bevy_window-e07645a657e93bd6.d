@@ -1,0 +1,11 @@
+/home/runner/work/ci-templates/ci-templates/bevy-android-test/target/debug/deps/bevy_window-e07645a657e93bd6.d: /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/lib.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/event.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/monitor.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/raw_handle.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/system.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/system_cursor.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/window.rs
+
+/home/runner/work/ci-templates/ci-templates/bevy-android-test/target/debug/deps/libbevy_window-e07645a657e93bd6.rmeta: /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/lib.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/event.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/monitor.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/raw_handle.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/system.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/system_cursor.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/window.rs
+
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/lib.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/event.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/monitor.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/raw_handle.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/system.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/system_cursor.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.16.1/src/window.rs:

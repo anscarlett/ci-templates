@@ -1,0 +1,12 @@
+/home/runner/work/ci-templates/ci-templates/bevy-android-test/target/debug/deps/bitflags-30ae4363d617e078.d: /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/lib.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/iter.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/parser.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/traits.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/public.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/internal.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/external.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/external/serde.rs
+
+/home/runner/work/ci-templates/ci-templates/bevy-android-test/target/debug/deps/libbitflags-30ae4363d617e078.rmeta: /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/lib.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/iter.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/parser.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/traits.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/public.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/internal.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/external.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/external/serde.rs
+
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/lib.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/iter.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/parser.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/traits.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/public.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/internal.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/external.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/external/serde.rs:
