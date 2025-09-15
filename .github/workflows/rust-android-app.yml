@@ -39,6 +39,12 @@ jobs:
           target: aarch64-linux-android
           override: true
 
+      - name: Add additional Android targets  
+        run: |
+          rustup target add armv7-linux-androideabi
+          rustup target add i686-linux-android
+          rustup target add x86_64-linux-android
+
       - name: Install Android NDK and SDK
         uses: nttld/setup-ndk@v1
         with:
@@ -47,10 +53,15 @@ jobs:
       - name: Install cargo-ndk
         run: cargo install cargo-ndk
 
-      - name: Build APK
+      - name: Build Android shared library
         run: |
           cd bevy-android-test
-          cargo ndk -t arm64-v8a -o ../app-build build --release
+          cargo ndk -t arm64-v8a build --release
+
+      - name: Copy shared library to build directory
+        run: |
+          mkdir -p app-build/lib/arm64-v8a
+          cp bevy-android-test/target/aarch64-linux-android/release/libbevy_android_test.so app-build/lib/arm64-v8a/
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
