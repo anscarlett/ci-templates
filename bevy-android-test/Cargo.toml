@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bevy = { version = "0.13", default-features = false, features = ["bevy_winit", "bevy_render", "bevy_sprite"] }
+bevy = { version = "0.17", default-features = false, features = ["bevy_winit", "bevy_render", "bevy_sprite"] }
