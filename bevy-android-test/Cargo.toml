@@ -3,6 +3,12 @@ name = "bevy-android-test"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+crate-type = ["cdylib"]
+
 [dependencies]
 bevy = { version = "0.17.0-rc.1", default-features = true, features = ["bevy_winit", "bevy_render", "bevy_sprite"] }
 android-activity = { version = "0.6.0", features = ["game-activity"] }
+
+[target.'cfg(target_os = "android")'.dependencies]
+android_logger = "0.14"
